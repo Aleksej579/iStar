@@ -1,0 +1,394 @@
+
+.headerWrapperFirst {
+    height: 40px;
+    background-color: #f0f3f8;
+}
+@media screen and (min-width:750px) and (max-width: 960px) {
+		.headerWrapperFirst {display: none;}
+}
+
+.headerWrapperSecond {
+    height: 120px;
+    line-height: 120px;
+    padding-left: 30px;
+}
+
+.navWrapper {
+    height: 105px;
+    width: 1140px;
+    margin: auto;
+    background-color: #f9fafc;
+    padding: 0 30px;
+}
+@media screen and (min-width:970px) and (max-width:1130px) {
+		.navWrapper {width: 970px;}
+}
+@media screen and (min-width:750px) and (max-width: 960px) {
+		.navWrapper {width: 750px;}
+}
+
+.sectionWrapper {
+    height: auto;
+    width: 1140px;
+    margin: 100px auto 50px auto;
+    padding: 30px;
+
+}
+@media screen and (min-width:970px) and (max-width:1100px) {
+		.sectionWrapper {width: 970px;}
+}
+@media screen and (min-width:750px) and (max-width:960px) {
+		.sectionWrapper {width: 750px;}
+}
+@media screen and (min-width:320px) and (max-width:750px) {
+		.sectionWrapper {width: 320px;}
+}
+
+.articleWrapper {
+    height: 900px;
+    width: 70%;
+    float: left;
+}
+
+.asideWrapper {
+    height: 900px;
+    width: 30%;
+    float: left;
+    padding: 30px;
+}
+@media screen and (min-width:750px) and (max-width:960px) {
+		.asideWrapper {display: none;}
+}
+@media screen and (min-width:320px) and (max-width: 740px) {
+		.asideWrapper {display: none;}
+}
+
+
+.aside {
+    height: 300px;
+    width: 70%;
+    background-color: lightblue;
+}
+
+#btnAsideCatalog {
+    height: 50px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+
+#sliderWrapper {
+    height: auto;
+    width: 660px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.price_byWrapper {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.priceNew {
+    color: red;
+    font-size: 40px;
+}
+
+#btnBy {
+    height: 50px;
+    width: 140px;
+    border-radius: 10px;
+    background-color: #ee3346;
+    color: white
+}
+
+
+
+.sliderView {
+    height: 400px;
+    width: 560px;
+    float: left;
+    position: relative;
+}
+
+.sliderNav {
+    height: 400px;
+    width: 80px;
+    float: left;
+    margin-left: 10px;
+    background-color: #f5f8fa;
+    display: flex;
+}
+
+.imgSlider {
+    position: absolute;
+    display: none;
+}
+.imgSlider:first-child {
+    display: block;
+}
+
+.imgSliderMin {
+    height: 40px;
+    width: 55px;
+    opacity: 0.5;
+    margin: 5px auto;
+}
+
+.ulImgSliderMin {
+    list-style-type: none;
+    margin: auto;
+    padding: 0; 
+}
+
+#btnPrev {
+    height: 40px;
+    width: 55px;
+    background: none;
+    outline: none;
+    border: none;
+}
+
+#btnNext {
+    height: 40px;
+    width: 55px;
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.tabContentWrapper {
+    height: 200px;
+    width: 100%;
+    border: 1px solid #ee3346;
+    list-style-type: none;
+    margin: auto;
+    padding: 0; 
+}
+
+
+
+.ulTab {
+    list-style-type: none;
+}
+
+.tab {
+    height: 50px;
+    
+}
+
+.menuTabWrapper {
+    list-style-type: none;
+    margin: auto;
+    padding: 0; 
+}
+
+.navTab {
+    display: inline;
+}
+
+/*---TAB-------------------------------*/
+.tab {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+.tablinks {
+    background-color: inherit;
+    cursor: pointer;
+    padding: 20px 70px;
+    transition: 0.3s;
+    border-bottom: 1px solid #ccc;
+}
+.tablinks:hover {
+    color: black;
+}
+.tablinks.active {
+    color: #ee3346;
+    border-bottom: 1px solid #ee3346;
+}
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+
+    
+/*header menu dropdown*/
+.top-menu li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 2px 15px;
+    border-radius: 15px;
+    color: #656668;
+}
+.top-menu li:hover{
+    color: white;
+    background-color: #ee3346;
+}
+.top-menu li ul{
+    display: none;
+    position: absolute;
+    padding-left: 0;
+    width: 200px;
+    padding-top: 10px;
+}
+.top-menu li:hover ul{
+    display: block;
+    left: 0px;
+    color: grey;
+}
+
+
+
+.cartUser {
+    float: right;
+    color: grey;
+    font-size: 20px;
+}
+
+.top-menu {
+    float: left;
+    margin-top: 6px;
+}
+
+.headerAll {
+    width: 1140px;
+    margin: auto;
+}
+@media screen and (min-width:970px) and (max-width:1130px) {
+		.headerAll {width: 970px;}
+}
+@media screen and (min-width:750px) and (max-width:960px) {
+		.headerAll {width: 750px;}
+}
+
+.navUl {
+    list-style: none;
+    display: inline;
+}
+
+
+
+#sprite1, #sprite2, #sprite3, #sprite4, #sprite5, #sprite6, #sprite7, #sprite8 {
+    height: 60px;
+    width: 120px;
+}
+#sprite1:hover, #sprite2:hover, #sprite3:hover, #sprite4:hover, #sprite5:hover, #sprite6:hover, #sprite7:hover, #sprite8:hover {
+    background-position: center -60px;
+    transition: .5s ease;
+    border-top: 3px solid red;
+}
+#sprite1 {
+    background: url(/image/sprite/1.png) no-repeat;
+    background-position: 30px 5px;
+}
+
+#sprite2 {
+    background: url(/image/sprite/2.png) no-repeat;
+    background-position: 30px 5px;
+}
+
+#sprite3 {
+    background: url(/image/sprite/3.png) no-repeat;
+    background-position: 30px 5px;
+}
+
+#sprite4 {
+    background: url(/image/sprite/4.png) no-repeat;
+    background-position: 30px 5px;
+}
+
+#sprite5 {
+    background: url(/image/sprite/5.png) no-repeat;
+    background-position: 30px 5px;
+}
+
+#sprite6 {
+    background: url(/image/sprite/6.png) no-repeat;
+    background-position: 30px 5px;
+}
+
+#sprite7 {
+    background: url(/image/sprite/7.png) no-repeat;
+    background-position: 30px 5px;
+}
+
+#sprite8 {
+    background: url(/image/sprite/8.png) no-repeat;
+    background-position: 30px 5px;
+}
+
+.navDiv {
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navName {
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.navName > div {
+    width: 150px;
+    text-align: center;
+}
+
+
+
+#btnPrev:hover {
+    font-size: 200%;
+    color: tomato;
+}
+
+#btnNext:hover {
+    font-size: 200%;
+    color: tomato;
+}
+
+
+
+.btn-danger {
+    height: 50px;
+    padding: 0 35px;
+}
+
+.btn-default {
+    height: 50px;
+}
+
+
+#kitchenAll {
+    cursor: pointer;
+}
+
+#kitchenAll:hover {
+    color: red;
+}
+
+table {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer {
+    height: auto;
+    width: 1140px;
+    margin: 100px auto 50px auto;
+    padding: 30px;
+}
+
+
